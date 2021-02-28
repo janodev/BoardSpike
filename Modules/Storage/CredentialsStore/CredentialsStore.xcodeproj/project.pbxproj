@@ -1,0 +1,955 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		"CredentialsStore::CredentialsStorePackageTests::ProductTarget" /* CredentialsStorePackageTests */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = OBJ_60 /* Build configuration list for PBXAggregateTarget "CredentialsStorePackageTests" */;
+			buildPhases = (
+			);
+			dependencies = (
+				OBJ_63 /* PBXTargetDependency */,
+			);
+			name = CredentialsStorePackageTests;
+			productName = CredentialsStorePackageTests;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		3A5175E823C951D80059907C /* HasCredentialsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5175E723C951D80059907C /* HasCredentialsStore.swift */; };
+		OBJ_105 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_29 /* Package.swift */; };
+		OBJ_41 /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* Container.swift */; };
+		OBJ_42 /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* Credentials.swift */; };
+		OBJ_43 /* CredentialsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* CredentialsStore.swift */; };
+		OBJ_44 /* KeychainCredentialsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* KeychainCredentialsStore.swift */; };
+		OBJ_45 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* Keychain.swift */; };
+		OBJ_47 /* Log.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Log::Log::Product" /* Log.framework */; };
+		OBJ_48 /* Logging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-log::Logging::Product" /* Logging.framework */; };
+		OBJ_58 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_69 /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* XCTestManifests.swift */; };
+		OBJ_71 /* CredentialsStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "CredentialsStore::CredentialsStore::Product" /* CredentialsStore.framework */; };
+		OBJ_72 /* Log.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Log::Log::Product" /* Log.framework */; };
+		OBJ_73 /* Logging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-log::Logging::Product" /* Logging.framework */; };
+		OBJ_81 /* HasLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* HasLogger.swift */; };
+		OBJ_82 /* OSLogLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* OSLogLogger.swift */; };
+		OBJ_84 /* Logging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-log::Logging::Product" /* Logging.framework */; };
+		OBJ_91 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* Package.swift */; };
+		OBJ_96 /* Locks.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* Locks.swift */; };
+		OBJ_97 /* LogHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* LogHandler.swift */; };
+		OBJ_98 /* Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* Logging.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A5175E123C951CB0059907C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "Log::Log";
+			remoteInfo = Log;
+		};
+		3A5175E223C951CB0059907C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "swift-log::Logging";
+			remoteInfo = Logging;
+		};
+		3A5175E323C951CB0059907C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "swift-log::Logging";
+			remoteInfo = Logging;
+		};
+		3A5175E423C951CB0059907C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "CredentialsStore::CredentialsStore";
+			remoteInfo = CredentialsStore;
+		};
+		3A5175E523C951CB0059907C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "Log::Log";
+			remoteInfo = Log;
+		};
+		3A5175E623C951CB0059907C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "swift-log::Logging";
+			remoteInfo = Logging;
+		};
+		3A5175E923C951D90059907C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "CredentialsStore::CredentialsStoreTests";
+			remoteInfo = CredentialsStoreTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3A5175E723C951D80059907C /* HasCredentialsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HasCredentialsStore.swift; sourceTree = "<group>"; };
+		"CredentialsStore::CredentialsStore::Product" /* CredentialsStore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CredentialsStore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"CredentialsStore::CredentialsStoreTests::Product" /* CredentialsStoreTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = CredentialsStoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		"Log::Log::Product" /* Log.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Log.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_10 /* Credentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credentials.swift; sourceTree = "<group>"; };
+		OBJ_11 /* CredentialsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredentialsStore.swift; sourceTree = "<group>"; };
+		OBJ_12 /* KeychainCredentialsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainCredentialsStore.swift; sourceTree = "<group>"; };
+		OBJ_14 /* Keychain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keychain.swift; sourceTree = "<group>"; };
+		OBJ_17 /* XCTestManifests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestManifests.swift; sourceTree = "<group>"; };
+		OBJ_21 /* HasLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HasLogger.swift; sourceTree = "<group>"; };
+		OBJ_22 /* OSLogLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSLogLogger.swift; sourceTree = "<group>"; };
+		OBJ_23 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = /Users/jano/code/github/j4n0/Bikini/Modules/Core/Log/Package.swift; sourceTree = "<group>"; };
+		OBJ_26 /* Locks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locks.swift; sourceTree = "<group>"; };
+		OBJ_27 /* LogHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogHandler.swift; sourceTree = "<group>"; };
+		OBJ_28 /* Logging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logging.swift; sourceTree = "<group>"; };
+		OBJ_29 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/jano/code/github/j4n0/Bikini/Modules/Storage/CredentialsStore/.build/checkouts/swift-log/Package.swift"; sourceTree = "<group>"; };
+		OBJ_35 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		OBJ_9 /* Container.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Container.swift; sourceTree = "<group>"; };
+		"swift-log::Logging::Product" /* Logging.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Logging.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		OBJ_46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_47 /* Log.framework in Frameworks */,
+				OBJ_48 /* Logging.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_71 /* CredentialsStore.framework in Frameworks */,
+				OBJ_72 /* Log.framework in Frameworks */,
+				OBJ_73 /* Logging.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_84 /* Logging.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		OBJ_13 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_14 /* Keychain.swift */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		OBJ_15 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_16 /* CredentialsStoreTests */,
+			);
+			name = Tests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_16 /* CredentialsStoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_17 /* XCTestManifests.swift */,
+			);
+			name = CredentialsStoreTests;
+			path = Tests/CredentialsStoreTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_18 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_19 /* Log */,
+				OBJ_24 /* swift-log 1.2.0 */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		OBJ_19 /* Log */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_20 /* Log */,
+				OBJ_23 /* Package.swift */,
+			);
+			name = Log;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_20 /* Log */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_21 /* HasLogger.swift */,
+				OBJ_22 /* OSLogLogger.swift */,
+			);
+			name = Log;
+			path = ../../Core/Log/Sources/Log;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_24 /* swift-log 1.2.0 */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_25 /* Logging */,
+				OBJ_29 /* Package.swift */,
+			);
+			name = "swift-log 1.2.0";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_25 /* Logging */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_26 /* Locks.swift */,
+				OBJ_27 /* LogHandler.swift */,
+				OBJ_28 /* Logging.swift */,
+			);
+			name = Logging;
+			path = ".build/checkouts/swift-log/Sources/Logging";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				"Log::Log::Product" /* Log.framework */,
+				"swift-log::Logging::Product" /* Logging.framework */,
+				"CredentialsStore::CredentialsStore::Product" /* CredentialsStore.framework */,
+				"CredentialsStore::CredentialsStoreTests::Product" /* CredentialsStoreTests.xctest */,
+			);
+			name = Products;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		OBJ_5 /*  */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_6 /* Package.swift */,
+				OBJ_7 /* Sources */,
+				OBJ_15 /* Tests */,
+				OBJ_18 /* Dependencies */,
+				OBJ_30 /* Products */,
+				OBJ_35 /* README.md */,
+			);
+			name = "";
+			sourceTree = "<group>";
+		};
+		OBJ_7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_8 /* CredentialsStore */,
+			);
+			name = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_8 /* CredentialsStore */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_9 /* Container.swift */,
+				OBJ_10 /* Credentials.swift */,
+				OBJ_11 /* CredentialsStore.swift */,
+				3A5175E723C951D80059907C /* HasCredentialsStore.swift */,
+				OBJ_12 /* KeychainCredentialsStore.swift */,
+				OBJ_13 /* ThirdParty */,
+			);
+			name = CredentialsStore;
+			path = Sources/CredentialsStore;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		"CredentialsStore::CredentialsStore" /* CredentialsStore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_37 /* Build configuration list for PBXNativeTarget "CredentialsStore" */;
+			buildPhases = (
+				OBJ_40 /* Sources */,
+				OBJ_46 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_49 /* PBXTargetDependency */,
+				OBJ_51 /* PBXTargetDependency */,
+			);
+			name = CredentialsStore;
+			productName = CredentialsStore;
+			productReference = "CredentialsStore::CredentialsStore::Product" /* CredentialsStore.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"CredentialsStore::CredentialsStoreTests" /* CredentialsStoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_65 /* Build configuration list for PBXNativeTarget "CredentialsStoreTests" */;
+			buildPhases = (
+				OBJ_68 /* Sources */,
+				OBJ_70 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_74 /* PBXTargetDependency */,
+				OBJ_75 /* PBXTargetDependency */,
+				OBJ_76 /* PBXTargetDependency */,
+			);
+			name = CredentialsStoreTests;
+			productName = CredentialsStoreTests;
+			productReference = "CredentialsStore::CredentialsStoreTests::Product" /* CredentialsStoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		"CredentialsStore::SwiftPMPackageDescription" /* CredentialsStorePackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_54 /* Build configuration list for PBXNativeTarget "CredentialsStorePackageDescription" */;
+			buildPhases = (
+				OBJ_57 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CredentialsStorePackageDescription;
+			productName = CredentialsStorePackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+		"Log::Log" /* Log */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_77 /* Build configuration list for PBXNativeTarget "Log" */;
+			buildPhases = (
+				OBJ_80 /* Sources */,
+				OBJ_83 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_85 /* PBXTargetDependency */,
+			);
+			name = Log;
+			productName = Log;
+			productReference = "Log::Log::Product" /* Log.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"Log::SwiftPMPackageDescription" /* LogPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_87 /* Build configuration list for PBXNativeTarget "LogPackageDescription" */;
+			buildPhases = (
+				OBJ_90 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LogPackageDescription;
+			productName = LogPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+		"swift-log::Logging" /* Logging */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_92 /* Build configuration list for PBXNativeTarget "Logging" */;
+			buildPhases = (
+				OBJ_95 /* Sources */,
+				OBJ_99 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Logging;
+			productName = Logging;
+			productReference = "swift-log::Logging::Product" /* Logging.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"swift-log::SwiftPMPackageDescription" /* swift-logPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_101 /* Build configuration list for PBXNativeTarget "swift-logPackageDescription" */;
+			buildPhases = (
+				OBJ_104 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "swift-logPackageDescription";
+			productName = "swift-logPackageDescription";
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		OBJ_1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 9999;
+				LastUpgradeCheck = 9999;
+			};
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "CredentialsStore" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = OBJ_5 /*  */;
+			productRefGroup = OBJ_30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"CredentialsStore::CredentialsStore" /* CredentialsStore */,
+				"CredentialsStore::SwiftPMPackageDescription" /* CredentialsStorePackageDescription */,
+				"CredentialsStore::CredentialsStorePackageTests::ProductTarget" /* CredentialsStorePackageTests */,
+				"CredentialsStore::CredentialsStoreTests" /* CredentialsStoreTests */,
+				"Log::Log" /* Log */,
+				"Log::SwiftPMPackageDescription" /* LogPackageDescription */,
+				"swift-log::Logging" /* Logging */,
+				"swift-log::SwiftPMPackageDescription" /* swift-logPackageDescription */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		OBJ_104 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_105 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_41 /* Container.swift in Sources */,
+				3A5175E823C951D80059907C /* HasCredentialsStore.swift in Sources */,
+				OBJ_42 /* Credentials.swift in Sources */,
+				OBJ_43 /* CredentialsStore.swift in Sources */,
+				OBJ_44 /* KeychainCredentialsStore.swift in Sources */,
+				OBJ_45 /* Keychain.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_58 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_69 /* XCTestManifests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_81 /* HasLogger.swift in Sources */,
+				OBJ_82 /* OSLogLogger.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_91 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_96 /* Locks.swift in Sources */,
+				OBJ_97 /* LogHandler.swift in Sources */,
+				OBJ_98 /* Logging.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		OBJ_49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "Log::Log" /* Log */;
+			targetProxy = 3A5175E123C951CB0059907C /* PBXContainerItemProxy */;
+		};
+		OBJ_51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "swift-log::Logging" /* Logging */;
+			targetProxy = 3A5175E323C951CB0059907C /* PBXContainerItemProxy */;
+		};
+		OBJ_63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "CredentialsStore::CredentialsStoreTests" /* CredentialsStoreTests */;
+			targetProxy = 3A5175E923C951D90059907C /* PBXContainerItemProxy */;
+		};
+		OBJ_74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "CredentialsStore::CredentialsStore" /* CredentialsStore */;
+			targetProxy = 3A5175E423C951CB0059907C /* PBXContainerItemProxy */;
+		};
+		OBJ_75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "Log::Log" /* Log */;
+			targetProxy = 3A5175E523C951CB0059907C /* PBXContainerItemProxy */;
+		};
+		OBJ_76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "swift-log::Logging" /* Logging */;
+			targetProxy = 3A5175E623C951CB0059907C /* PBXContainerItemProxy */;
+		};
+		OBJ_85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "swift-log::Logging" /* Logging */;
+			targetProxy = 3A5175E223C951CB0059907C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		OBJ_102 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 5";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		OBJ_103 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 5";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		OBJ_3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+					"DEBUG=1",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		OBJ_38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = CredentialsStore.xcodeproj/CredentialsStore_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = CredentialsStore;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = CredentialsStore;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		OBJ_39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = CredentialsStore.xcodeproj/CredentialsStore_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = CredentialsStore;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = CredentialsStore;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		OBJ_4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+		OBJ_55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 5.1";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		OBJ_56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 5.1";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		OBJ_61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		OBJ_62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		OBJ_66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = CredentialsStore.xcodeproj/CredentialsStoreTests_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = CredentialsStoreTests;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		OBJ_67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = CredentialsStore.xcodeproj/CredentialsStoreTests_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = CredentialsStoreTests;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		OBJ_78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = CredentialsStore.xcodeproj/Log_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Log;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = Log;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		OBJ_79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = CredentialsStore.xcodeproj/Log_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Log;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = Log;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		OBJ_88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 5.1";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		OBJ_89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 5.1";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		OBJ_93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = CredentialsStore.xcodeproj/Logging_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Logging;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = Logging;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		OBJ_94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = CredentialsStore.xcodeproj/Logging_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Logging;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = Logging;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		OBJ_101 /* Build configuration list for PBXNativeTarget "swift-logPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_102 /* Debug */,
+				OBJ_103 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_2 /* Build configuration list for PBXProject "CredentialsStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_37 /* Build configuration list for PBXNativeTarget "CredentialsStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_38 /* Debug */,
+				OBJ_39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_54 /* Build configuration list for PBXNativeTarget "CredentialsStorePackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_55 /* Debug */,
+				OBJ_56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_60 /* Build configuration list for PBXAggregateTarget "CredentialsStorePackageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_61 /* Debug */,
+				OBJ_62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_65 /* Build configuration list for PBXNativeTarget "CredentialsStoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_66 /* Debug */,
+				OBJ_67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_77 /* Build configuration list for PBXNativeTarget "Log" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_78 /* Debug */,
+				OBJ_79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_87 /* Build configuration list for PBXNativeTarget "LogPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_88 /* Debug */,
+				OBJ_89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_92 /* Build configuration list for PBXNativeTarget "Logging" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_93 /* Debug */,
+				OBJ_94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = OBJ_1 /* Project object */;
+}

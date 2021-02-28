@@ -1,0 +1,39 @@
+#!/bin/sh
+
+# if PROJECT_DIR is empty and there is one parameter, set it to that parameter
+if [[ -z "$PROJECT_DIR" ]] && [[ $# -eq 1 ]] 
+then
+    export PROJECT_DIR=$1
+else 
+	if [[ -z "$PROJECT_DIR" ]] 
+    then 
+		echo "error: PROJECT_DIR is not defined. Define it or pass it as first parameter."
+        exit 1
+    fi
+fi
+
+# exit if the command is not in the path
+if ! command -v swiftlint > /dev/null; then
+  echo "error: SwiftLint is not installed. Run: brew install swiftlint"
+  exit 1
+fi
+
+count=0
+
+# collect modified files
+for file_path in $(git diff --name-only --diff-filter=ACM | grep ".*.swift$"); do
+  export SCRIPT_INPUT_FILE_$count=$file_path
+  count=$((count + 1))
+done
+
+# collect staged files
+for file_path in $(git diff --cached --name-only --diff-filter=ACM | grep ".*.swift$"); do
+  export SCRIPT_INPUT_FILE_$count=$file_path
+  count=$((count + 1))
+done
+
+# lint collected files
+if (( $count > 0 )); then
+  export SCRIPT_INPUT_FILE_COUNT=$count
+  swiftlint --config ${PROJECT_DIR}/.swiftlint.yml --use-script-input-files
+fi

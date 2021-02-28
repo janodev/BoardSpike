@@ -1,0 +1,41 @@
+
+--swiftversion 5.1
+
+--exclude Build,Scripts
+
+--allman           true
+--binarygrouping   4,8
+--closingparen     same-line
+--commas           inline
+--decimalgrouping  3,6
+--elseposition     same-line
+--empty            void
+--exponentcase     uppercase
+--exponentgrouping disabled
+--fractiongrouping disabled
+--header           strip
+--hexgrouping      4,8
+--hexliteralcase   uppercase
+--ifdef            indent
+--importgrouping   alphabetized
+--indent           4
+--indentcase       true
+--linebreaks       lf
+--octalgrouping    4,8
+--operatorfunc     spaced
+--patternlet       hoist
+--ranges           spaced
+--selfrequired
+--semicolons       inline
+--stripunusedargs  always
+--trailingclosures
+--trimwhitespace   always
+--wraparguments    preserve
+--wrapcollections  preserve
+--xcodeindentation disabled
+
+--rules andOperator, anyObjectProtocol, blankLinesAroundMark, blankLinesAtEndOfScope, blankLinesBetweenScopes, braces, consecutiveBlankLines, consecutiveSpaces, duplicateImports, elseOnSameLine, emptyBraces, fileHeader, hoistPatternLet, indent, isEmpty, leadingDelimiters, linebreakAtEndOfFile, linebreaks, numberFormatting, ranges, redundantBackticks, redundantBreak, redundantExtensionACL, redundantFileprivate, redundantGet, redundantInit, redundantLet, redundantLetError, redundantNilInit, redundantObjc, redundantParens, redundantPattern, redundantRawValues, redundantReturn, redundantSelf, redundantVoidReturnType, semicolons, sortedImports, spaceAroundBraces, spaceAroundBrackets, spaceAroundComments, spaceAroundGenerics, spaceAroundOperators, spaceAroundParens, spaceInsideBraces, spaceInsideBrackets, spaceInsideComments, spaceInsideGenerics, spaceInsideParens, strongOutlets, strongifiedSelf, todos, trailingClosures, trailingCommas, trailingSpace, typeSugar, unusedArguments, void, wrapArguments, yodaConditions
+
+# 'specifiers' is disabled because swiftformat uses "public override", while swiftlint uses "override public"
+# 'redundantSelf' is disabled because it causes compilation errors in extensions
+--disable blankLinesAtStartOfScope, specifiers, redundantSelf

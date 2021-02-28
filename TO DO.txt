@@ -1,0 +1,6 @@
+
+- bug: if I expand and then rotate three times, scroll doesn’t work until I expand and collapse, 
+  suggesting parent.view.isUserInteractionEnabled = false may still be in effect (or something like that)
+
+- bug: when adding a new column, then rotating, the new column is invisible.
+

@@ -1,0 +1,8 @@
+Build
+Carthage
+xcshareddata
+xcuserdata
+*.generated.swift
+.DS_Store
+.idea/
+.build/
